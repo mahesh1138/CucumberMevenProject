@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4330937600,
+  "duration": 5551522600,
   "status": "passed"
 });
 formatter.background({
@@ -41,7 +41,7 @@ formatter.match({
   "location": "SmokeTest.user_launch_chrome_browser()"
 });
 formatter.result({
-  "duration": 122497900,
+  "duration": 100263300,
   "status": "passed"
 });
 formatter.match({
@@ -54,7 +54,7 @@ formatter.match({
   "location": "SmokeTest.user_opens_URL(String)"
 });
 formatter.result({
-  "duration": 3605973600,
+  "duration": 3095761600,
   "status": "passed"
 });
 formatter.match({
@@ -71,14 +71,14 @@ formatter.match({
   "location": "SmokeTest.user_enters_username_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 308134100,
+  "duration": 202931100,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.click_on_Login()"
 });
 formatter.result({
-  "duration": 2109681300,
+  "duration": 2110010100,
   "status": "passed"
 });
 formatter.scenario({
@@ -123,42 +123,42 @@ formatter.match({
   "location": "SmokeTest.user_click_on_Personal_information_tab()"
 });
 formatter.result({
-  "duration": 1099332900,
+  "duration": 1070126300,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.click_on_MyAttendance_link()"
 });
 formatter.result({
-  "duration": 2091562900,
+  "duration": 2097049200,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.select_employee_from_date_and_to_date_and_click_on_submit_button()"
 });
 formatter.result({
-  "duration": 6883386700,
+  "duration": 6616660500,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.click_on_Punchin_details_and_verify_break_details()"
 });
 formatter.result({
-  "duration": 3102814200,
+  "duration": 3096721200,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.close_the_pop_up_window()"
 });
 formatter.result({
-  "duration": 2089542900,
+  "duration": 2079113800,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.close_the_browser()"
 });
 formatter.result({
-  "duration": 1105250700,
+  "duration": 1197547200,
   "status": "passed"
 });
 });
