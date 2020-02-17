@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 					strict=true,
 					plugin={"pretty", "html:target/cucumber-html-report", "json:target/cucumber-reports/cucumber.json"}      			//Generate Html Report and plugin={"html:test-output"}    
 					//tags={"@sanity, @segression"}  			OR //To run specific scenarion under steps definitions
-					//tags={"@sanity", "@segression"}  			AND //To run both santiy and regression test
+					///tags={"@sanity", "@segression"}  			AND //To run both santiy and regression test
 )
 public class TestRunner 
 {
