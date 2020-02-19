@@ -113,7 +113,7 @@ public class SmokeTest extends BaseClass
 		Select EmpId=new Select(select);
 		EmpId.selectByVisibleText("Self");
 	    Thread.sleep(1000);
-	    
+	    //
 		//Select from and To date and click on submit button.
 	    driver.findElement(By.xpath("//input[@name='fromDateComp']")).clear();
 		driver.findElement(By.xpath("//input[@name='fromDateComp']")).sendKeys("19-Feb-2020");
