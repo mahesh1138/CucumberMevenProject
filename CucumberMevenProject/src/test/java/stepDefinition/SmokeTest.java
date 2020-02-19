@@ -116,10 +116,10 @@ public class SmokeTest extends BaseClass
 	    
 		//Select from and To date and click on submit button.
 	    driver.findElement(By.xpath("//input[@name='fromDateComp']")).clear();
-		driver.findElement(By.xpath("//input[@name='fromDateComp']")).sendKeys("17-Feb-2020");
+		driver.findElement(By.xpath("//input[@name='fromDateComp']")).sendKeys("19-Feb-2020");
 		 Thread.sleep(1000);
 		 driver.findElement(By.xpath("//input[@name='toDateComp']")).clear();
-		driver.findElement(By.xpath("//input[@name='toDateComp']")).sendKeys("17-Feb-2020");
+		driver.findElement(By.xpath("//input[@name='toDateComp']")).sendKeys("19-Feb-2020");
 		 Thread.sleep(1000);
 		 driver.findElement(By.xpath("//button[contains(text(), 'Submit')]")).click();
 		 Thread.sleep(3000);
