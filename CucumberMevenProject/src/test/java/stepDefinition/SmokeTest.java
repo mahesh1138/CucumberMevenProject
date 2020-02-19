@@ -116,10 +116,10 @@ public class SmokeTest extends BaseClass
 	    
 		//Select from and To date and click on submit button.
 	    driver.findElement(By.xpath("//input[@name='fromDateComp']")).clear();
-		driver.findElement(By.xpath("//input[@name='fromDateComp']")).sendKeys("06-Feb-2020");
+		driver.findElement(By.xpath("//input[@name='fromDateComp']")).sendKeys("19-Feb-2020");
 		 Thread.sleep(1000);
 		 driver.findElement(By.xpath("//input[@name='toDateComp']")).clear();
-		driver.findElement(By.xpath("//input[@name='toDateComp']")).sendKeys("06-Feb-2020");
+		driver.findElement(By.xpath("//input[@name='toDateComp']")).sendKeys("19-Feb-2020");
 		 Thread.sleep(1000);
 		 driver.findElement(By.xpath("//button[contains(text(), 'Submit')]")).click();
 		 Thread.sleep(3000);
@@ -143,6 +143,9 @@ public class SmokeTest extends BaseClass
 	@Then("^Close the browser$")
 	public void close_the_browser() throws Throwable 
 	{
+		driver.findElement(By.xpath("//span[contains(text(), 'Logout')]")).click();	
+		logger.info("Logout Application successfully");
+		Thread.sleep(2000);
 		driver.quit();
 		logger.info("closed browser successfully");
 
